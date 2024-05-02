@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 92px 24px 96px;
+  padding: 92px 24px 92px;
   background-color: #fff;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .cover__title {
-  padding: 165px 50px 237px;
+  padding: 165px 50px 129px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -90,9 +90,10 @@
 }
 
 .aligned-text {
+  padding-bottom: 18px;
+  line-height: 115px;
   letter-spacing: 0.3em;
   text-align: left;
-  line-height: 115px;
 }
 
 .letter-spacing-extended {
@@ -104,21 +105,49 @@
 }
 
 .aligned-text_center {
-  margin-left: -50px;
-  margin-top: 15px;
+  padding-right: 50px;
+  line-height: 100px;
   letter-spacing: 0.3em;
   text-align: center;
-  line-height: 100px;
 }
 
 .aligned-text_right {
+  padding-top: 19px;
+  line-height: 100px;
   letter-spacing: 0.6em;
   text-align: right;
-  line-height: 100px;
-  margin-top: 20px;
 }
 
 .aligned-text_right .letter-spacing-extended {
   letter-spacing: 0.3em;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 50px 0px 51px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.cover__description-text {
+  font-weight: 400;
+  word-spacing: 18px;
+  padding-left: 29px;
+  }
+
+.bet-button {
+  box-sizing: border-box;
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  background-color: transparent;
+  text-transform: uppercase;
 }
 
