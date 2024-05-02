@@ -55,6 +55,7 @@
 
 .cover {
   position: relative;
+  z-index: 0;
   width: 1100px;
   height: 757px;
   background-image: url(../images/cover.jpg);
@@ -67,6 +68,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
   opacity: 60%;
@@ -74,8 +76,8 @@
 }
 
 .cover__title {
-  position: absolute;
   padding: 165px 50px 237px;
+  display: block;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -83,19 +85,24 @@
 }
 
 .aligned-text {
-  line-height: 115%;
+  display: block;
+  /* line-height: 115%; */
   letter-spacing: 0.3em;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
 .aligned-text_center {
-  padding: 300px 395px 357px 336px;
   letter-spacing: 0.3em;
+  display: block;
+  flex: 0;
+  margin: auto;
 }
 
-.aligned-text_right {
-  padding: 420px 0 237px 633px;
-  text-align: right;
-  letter-spacing: 0.6em;
-  text-transform: uppercase;
-  }
 
