@@ -77,17 +77,22 @@
 
 .cover__title {
   padding: 165px 50px 237px;
-  display: block;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
 }
 
-.aligned-text {
+.aligned-text,
+.aligned-text_center,
+.aligned-text_right {
   display: block;
-  /* line-height: 115%; */
+}
+
+.aligned-text {
   letter-spacing: 0.3em;
+  text-align: left;
+  line-height: 115px;
 }
 
 .letter-spacing-extended {
@@ -99,10 +104,21 @@
 }
 
 .aligned-text_center {
+  margin-left: -50px;
+  margin-top: 15px;
   letter-spacing: 0.3em;
-  display: block;
-  flex: 0;
-  margin: auto;
+  text-align: center;
+  line-height: 100px;
 }
 
+.aligned-text_right {
+  letter-spacing: 0.6em;
+  text-align: right;
+  line-height: 100px;
+  margin-top: 20px;
+}
+
+.aligned-text_right .letter-spacing-extended {
+  letter-spacing: 0.3em;
+}
 
