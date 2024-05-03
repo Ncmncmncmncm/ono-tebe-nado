@@ -133,9 +133,9 @@
 }
 
 .cover__description-text {
+  padding-left: 29px;
   font-weight: 400;
   word-spacing: 18px;
-  padding-left: 29px;
   }
 
 .bet-button {
@@ -147,7 +147,19 @@
   font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
-  background-color: transparent;
   text-transform: uppercase;
+  background-color: transparent;
 }
 
+.lots {
+  padding: 179px 24px 146px;
+}
+
+.lots__heading {
+  padding-left: 40px;
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
+}
