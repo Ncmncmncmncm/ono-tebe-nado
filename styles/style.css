@@ -163,3 +163,7 @@
   line-height: 46.96px;
   text-transform: uppercase;
 }
+
+.lots__card-list {
+  display: flex;
+}
