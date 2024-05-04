@@ -44,7 +44,7 @@
   display: grid;
   flex-basis: 40%;
   grid-template-columns: 210px;
-  grid-template-rows: repreat(3, 1rf);
+  grid-template-rows: repeat(3, 1rf);
   place-content: center end;
   margin: 0;
   padding-right: 55px;
@@ -136,7 +136,7 @@
   padding-left: 29px;
   font-weight: 400;
   word-spacing: 18px;
-  }
+}
 
 .bet-button {
   box-sizing: border-box;
@@ -166,4 +166,105 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-top: 27px;
+  list-style: none;
+}
+
+.lots__card-list-item {
+  display: flex;
+  flex-grow: 1;
+  width: 334px;
+  min-height: 563px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #fff;
+}
+
+.card_type_book,
+.card_type_film,
+.card_type_picture {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card__title {
+  padding: 51px 40px 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  margin-top: auto;
+  padding: 0 40px 48px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lots__look-more-link {
+  display: block;
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+.about {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  height: 563px;
+
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+  justify-self: center;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
 }
