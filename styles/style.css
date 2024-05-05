@@ -1,21 +1,21 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 92px 24px 84px;
+  align-items: center;
+  padding: 92px 24px 91px;
   background-color: #fff;
 }
 
 .header__menu {
   display: flex;
   flex-basis: 40%;
-  justify-content: end;
-  text-align: end;
 }
 
 .header__links-list {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 32px;
+  padding-left: 23px;
 }
 
 .header__links-list .header__links-list-item_no-bullit {
@@ -32,33 +32,28 @@
   line-height: 21px;
   letter-spacing: 0.01em;
   list-style: circle;
-  padding-bottom: 11px;
+  padding-top: 2px;
 }
 
 .header__logo {
-  display: inline;
-  width: 148px;
+  display: block;
+  width: 137px;
 }
 
 .address {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   flex-basis: 40%;
-  grid-template-columns: 210px;
-  grid-template-rows: repeat(3, 1rf);
-  place-content: center end;
-  margin: 0;
-  padding-right: 55px;
-  padding-bottom: 9px;
   font-size: 18px;
   line-height: 24.3px;
-  text-align: start;
+  padding-left: 155px;
 }
 
 .cover {
   position: relative;
   z-index: 0;
   width: 1100px;
-  height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -67,8 +62,7 @@
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
@@ -127,7 +121,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 7px 50px 0px 51px;
+  padding: 7px 50px 51px 51px;
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
@@ -153,7 +147,7 @@
 }
 
 .lots {
-  padding: 177px 24px 146px;
+  padding: 180px 24px 146px;
 }
 
 .lots__heading {
@@ -250,7 +244,6 @@
 .about__column {
   display: grid;
   grid-template-columns: 334px 1fr;
-  height: 563px;
 }
 
 .about__logo div {
@@ -266,7 +259,7 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin-top: 36px;
+  margin-top: 37px;
 }
 
 .about__logo-image {
@@ -309,21 +302,20 @@
 }
 
 .footer .address {
-  padding-right: 200px;
-  padding-top: 34px;
   padding-left: 2px;
+  padding-top: 2px;
 }
 
 .footer__menu {
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
-  padding-top: 33px;
+  padding-top: 2px;
 }
 
 .footer__menu-list {
   list-style: none;
-  padding-right: 170px;
+  padding-right: 157px;
 }
 
 .footer__menu-list-item {
@@ -345,6 +337,6 @@
 }
 
 .footer__social-icon {
-  padding-top: 33px;
+  padding-top: 3px;
   width: 48px;
 }
