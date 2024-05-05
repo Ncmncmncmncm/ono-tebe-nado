@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 92px 24px 85px;
+  padding: 92px 24px 84px;
   background-color: #fff;
 }
 
@@ -32,6 +32,7 @@
   line-height: 21px;
   letter-spacing: 0.01em;
   list-style: circle;
+  padding-bottom: 11px;
 }
 
 .header__logo {
@@ -47,6 +48,7 @@
   place-content: center end;
   margin: 0;
   padding-right: 55px;
+  padding-bottom: 9px;
   font-size: 18px;
   line-height: 24.3px;
   text-align: start;
@@ -104,14 +106,14 @@
 }
 
 .aligned-text_center {
-  padding-right: 50px;
+  padding-right: 57px;
   line-height: 100px;
   letter-spacing: 0.3em;
   text-align: center;
 }
 
 .aligned-text_right {
-  padding-top: 19px;
+  padding-top: 20px;
   line-height: 100px;
   letter-spacing: 0.6em;
   text-align: right;
@@ -151,7 +153,7 @@
 }
 
 .lots {
-  padding: 179px 24px 146px;
+  padding: 177px 24px 146px;
 }
 
 .lots__heading {
@@ -224,7 +226,7 @@
 
 .card__text {
   margin-top: auto;
-  padding: 0 40px 48px;
+  padding: 0 41px 48px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -232,7 +234,7 @@
 
 .lots__look-more-link {
   display: block;
-  padding-top: 30px;
+  padding-top: 31px;
   padding-left: 40px;
   font-size: 20px;
   line-height: 23.48px;
@@ -264,7 +266,7 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin-top: 37px;
+  margin-top: 36px;
 }
 
 .about__logo-image {
@@ -277,7 +279,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: baseline;
-  padding-left: 24px;
+  padding-left: 25px;
 
 }
 
@@ -308,7 +310,7 @@
 
 .footer .address {
   padding-right: 200px;
-  padding-top: 31px;
+  padding-top: 34px;
   padding-left: 2px;
 }
 
@@ -316,13 +318,16 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
-  text-align: center;
   padding-top: 33px;
 }
 
 .footer__menu-list {
   list-style: none;
   padding-right: 170px;
+}
+
+.footer__menu-list-item {
+  text-align: center;
 }
 
 .footer__menu-link_active {
@@ -339,6 +344,6 @@
 }
 
 .footer__social-icon {
-  padding-top: 32px;
+  padding-top: 33px;
   width: 48px;
 }
