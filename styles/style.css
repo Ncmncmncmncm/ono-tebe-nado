@@ -303,7 +303,7 @@
 }
 
 .footer {
-  padding: 180px 50px 88px;
+  padding: 180px 50px 90px;
   display: flex;
   justify-content: space-between;
 }
@@ -341,6 +341,7 @@
 .footer__social-list {
   display: flex;
   gap: 48px;
+  list-style: none;
 }
 
 .footer__social-icon {
