@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 92px 24px 92px;
+  padding: 92px 24px 85px;
   background-color: #fff;
 }
 
@@ -36,8 +36,7 @@
 
 .header__logo {
   display: inline;
-  width: 134px;
-  height: 110px;
+  width: 148px;
 }
 
 .address {
@@ -250,21 +249,96 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   height: 563px;
+}
 
+.about__logo div {
+  padding-top: 80px;
 }
 
 .about__logo {
   display: flex;
+  justify-self: center;
   justify-content: center;
   align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  justify-self: center;
+  margin-top: 37px;
 }
 
 .about__logo-image {
   width: 148px;
   height: 114px;
+}
+
+.about__column-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: baseline;
+  padding-left: 24px;
+
+}
+
+.about__title {
+  flex-basis: 80%;
+  padding-top: 138px;
+  padding-bottom: 73px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-right: 1px;
+  padding-left: 3px;
+}
+
+.footer {
+  padding: 180px 50px 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .address {
+  padding-right: 200px;
+  padding-top: 31px;
+  padding-left: 2px;
+}
+
+.footer__menu {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  text-align: center;
+  padding-top: 33px;
+}
+
+.footer__menu-list {
+  list-style: none;
+  padding-right: 170px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-link {
+  text-decoration: none;
+}
+
+.footer__social-list{
+  display: flex;
+  gap: 48px;
+}
+
+.footer__social-icon {
+  padding-top: 32px;
+  width: 48px;
 }
